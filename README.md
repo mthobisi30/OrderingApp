@@ -3,7 +3,7 @@
 A cafeteria credit ordering system built with ASP.NET Core MVC, SQL Server, Tailwind CSS, and Feather Icons.  
 Employees can receive deposits (with monthly bonuses), browse restaurant menus, and place multi-item orders.
 
----
+-----------------------------------
 
 ## Features
 
@@ -15,7 +15,7 @@ Employees can receive deposits (with monthly bonuses), browse restaurant menus, 
 - Admin Panel to Update Order Status
 - Tailwind CSS + Feather Icons for UI polish
 
----
+-----------------------------------
 
 ## Tech Stack
 
@@ -35,7 +35,7 @@ Employees can receive deposits (with monthly bonuses), browse restaurant menus, 
 - SQL Server Express
 - Visual Studio Code or Visual Studio
 
----
+-----------------------------------
 
 ### 2. Run the App
 
@@ -45,6 +45,8 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 dotnet run
 
+-----------------------------------
+
 ### 3. How to Use App
 
 Go to Employees to add an employee.
@@ -53,15 +55,17 @@ Add Restaurants and Menu Items.
 Place an order via Orders > Create.
 View Order History or manage orders in the Admin Panel.
 
+-----------------------------------
+
 ### 4. Folder Structrure
 
 Controllers/
 Models/
 Views/
- └── Employees/
- └── Restaurants/
- └── Orders/
- └── Shared/_Layout.cshtml
+ --- Employees/
+ --- Restaurants/
+ --- Orders/
+ --- Shared/_Layout.cshtml
 Data/ApplicationDbContext.cs
 Services/DepositService.cs
 Program.cs
